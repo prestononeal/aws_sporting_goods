@@ -14,6 +14,7 @@ These Ubuntu packages were installed in order to get server functionality up:
 2. `apache2`
 3. `libapache2-mod-wsgi`
 4. `postgresql`
+5. `postgresql-contrib`
 5. `git`
 5. `python-pip`
 6. `python-virtualenv`
@@ -33,3 +34,4 @@ These packages were installed in order to run the catalog app:
 1. SSH configuration: https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 2. A virtual environment was created and configured using the steps here: http://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu. A new virtual environment was created called `catalogenv` was created in the Apache root, along with the cloned Catalog app.
 3. For installing the `psycopg2` python package, I needed to install as specified here: http://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python
+4. For installing and configuring postgresql and creating new users and databases for it: https://help.ubuntu.com/community/PostgreSQL 
