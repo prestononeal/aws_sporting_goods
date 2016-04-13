@@ -7,6 +7,10 @@ This project contains information on how an Amazon AWS instance was configured t
 ## Port
 
 ## Software installed
+1. finger
+2. apache2
+3. libapache2-mod-wsgi
+4. postgresql
 
 ## Configuration changes made
 
