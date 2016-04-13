@@ -11,9 +11,10 @@ This project contains information on how an Amazon AWS instance was configured t
 2. Installed package `apache2`
 3. Installed package `libapache2-mod-wsgi`
 4. Installed package `postgresql`
+5. Installed package `git`
 5. Installed setuptools
 6. Installed pip
 
 ## Third party resources
 1. SSH configuration: https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
-2. setuptools, pip virtualenv, and virtualenvwrapper were installed and configured using the steps here: http://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu. A new virtual environment was created called `catalog_app`
+2. A virtual environment was created and configured using the steps here: http://askubuntu.com/questions/244641/how-to-set-up-and-use-a-virtual-python-environment-in-ubuntu. A new virtual environment was created called `catalogenv` was created in the Apache root, along with the cloned Catalog app.
